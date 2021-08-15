@@ -9,10 +9,7 @@ export const Pagina4Screen = ({navigation}: Props) => {
   return (
     <View style={styles.globalMargin}>
       <Text>Página 4</Text>
-      <Button
-        title="Regresar"
-        onPress={() => navigation.pop()}
-      />
+      <Button title="Regresar" onPress={() => navigation.pop()} />
     </View>
   );
 };
