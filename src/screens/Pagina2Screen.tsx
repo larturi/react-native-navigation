@@ -8,7 +8,7 @@ interface Props extends StackScreenProps<any, any> {}
 export const Pagina2Screen = ({navigation}: Props) => {
   return (
     <View style={styles.globalMargin}>
-      <Text>Página 2</Text>
+      <Text style={styles.title}>Página 2</Text>
       <Button title="Regresar" onPress={() => navigation.pop()} />
 
       <Button
