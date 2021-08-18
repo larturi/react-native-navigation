@@ -15,7 +15,7 @@ import {
   View,
 } from 'react-native';
 import {styles} from '../theme/appTheme';
-import {Tabs} from './Tabs';
+import {Tabs} from './TabsNavigator';
 
 const Drawer = createDrawerNavigator();
 
